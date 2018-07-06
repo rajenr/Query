@@ -21,7 +21,7 @@ See it in action below:
 
 **Note**: when there is no adjacency detection to a target phrase, the GUI simply displays the `null` keyword in place of the first, second, and/or third result.
 
-Imagine we now feed the text file with `Huffman tree java.`, `Huffman tree cpp.`, and `Huffman tree python`. Upon typing in `Huffman tree` into the search-engine, the user may expect to see either `java`, `cpp`, or `python` simply concatenated onto the ending of their search term. However, the graph now appears "smarter" than before. The program instantaneously rebuilds the entire network of text. As the graph is constructed, a breath first search is performed to either add new edges or update the weight of previous adjacencies. We have just trained Query!
+Imagine we now feed the text file with `Huffman tree java.`, `Huffman tree cpp.`, and `Huffman tree python`. Upon typing in `Huffman tree` into the search-engine, the user may expect to see either `java`, `cpp`, or `python` simply concatenated onto the ending of their search term. However, the graph now appears "smarter" than before. The program instantaneously rebuilds the entire network of text. As the graph is constructed, a breadth first search is performed to either add new edges or update the weight of previous adjacencies. We have just trained Query!
 
 
 ![GIF](images/gif02.gif)
