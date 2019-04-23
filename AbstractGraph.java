@@ -76,8 +76,7 @@ public abstract class AbstractGraph implements Graph {
         int nodes = scan.nextInt();
         AbstractGraph val = null;
         if (type.equalsIgnoreCase("matrix")) {
-            //Stub out since we are not doing a matrix-version.
-            //returnValue = new MatrixGraph(numV, isDirected);
+            val = new MatrixGraph(numV, isDirected);
         } else if (type.equalsIgnoreCase("list")) {
             val = new ListGraph(nodes, isDir);
         } else {
